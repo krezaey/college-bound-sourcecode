@@ -118,7 +118,11 @@ p {
   font-size: 25px;
 }
 
-p, a, h1, h3, h5 {
+p,
+a,
+h1,
+h3,
+h5 {
   font-family: 'Hind', sans-serif;
 }
 
@@ -158,8 +162,6 @@ p, a, h1, h3, h5 {
   text-align: center;
   margin-left: -3.5vw;
 }
-
-
 
 Button {
   color: #3B6280;

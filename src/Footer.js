@@ -10,7 +10,7 @@ function Footer() {
     return (
         <div className="Footer">
             <Navbar expand="lg" sticky="bottom">
-                <Navbar.Brand href="#home">College Bound</Navbar.Brand>
+                <Navbar.Brand href="#home" id="title"><Link to="/" style={{color: 'black'}}>College Bound</Link></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
@@ -19,12 +19,12 @@ function Footer() {
                         <a href="https://www.shutterstock.com/g/GoodStudio">Art Credit</a>
                     </Nav>
                 </Navbar.Collapse>
-                <Form inline>
+                {/* <Form inline>
                     <FormControl type="text" placeholder="Search" className=" mr-sm-2" />
                     <Link to="/applying_to_colleges">
                         <Button style={{ background: "#3B6280" }} type="submit">Submit</Button>
                     </Link>
-                </Form>
+                </Form> */}
             </Navbar>
         </div>
     );

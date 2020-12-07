@@ -1,16 +1,16 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import Form from "react-bootstrap/Form";
-import FormControl from "react-bootstrap/FormControl";
-import Button from "react-bootstrap/Button";
+// import Form from "react-bootstrap/Form";
+// import FormControl from "react-bootstrap/FormControl";
+// import Button from "react-bootstrap/Button";
 import { BrowserRouter as Route, Link } from "react-router-dom";
 
 function Footer() {
     return (
         <div className="Footer">
             <Navbar expand="lg" sticky="bottom">
-                <Navbar.Brand href="#home" id="title"><Link to="/" style={{color: 'black'}}>College Bound</Link></Navbar.Brand>
+                <Navbar.Brand href="#home" id="title"><Link to="/" style={{ color: 'black' }}>College Bound</Link></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">

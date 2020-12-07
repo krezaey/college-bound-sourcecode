@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;700&display=swap');
 
 .App {
-  overflow-x: hidden;
+  overflow-x: scroll;
   max-width: 100%;
 }
 
 .navbar {
   background-color: #C0DDE7;
   max-width: 100%;
+  overflow: scroll;
+  position: relative;
 }
 
 .navbar-item:hover {
